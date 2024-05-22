@@ -1,0 +1,115 @@
+.header {
+  padding: 2rem;
+  color: #ccd6f6; /* Text Color */
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; /* Espacement sous le conteneur */
+}
+
+.profile-image {
+  width: 100px; /* Ajustez la taille selon vos besoins */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px; /* Espacement sous l'image */
+}
+
+
+.header-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ccd6f6; /* Text Color */
+  margin: 0;
+}
+
+.header-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-subtitle {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: medium;
+  color: #ccd6f6; /* Text Color */
+}
+
+.header-description {
+  margin-top: 1rem;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  color: #8892b0; /* Secondary Text Color */
+}
+
+.nav {
+  margin-top: 4rem;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  color: #8892b0; /* Secondary Text Color */
+  text-decoration: none;
+}
+
+.nav-link:hover .nav-text,
+.nav-link:focus .nav-text {
+  color: #ccd6f6; /* Text Color */
+}
+
+.nav-indicator {
+  display: inline-block;
+  width: 2rem;
+  height: 1px;
+  background-color: #8892b0; /* Secondary Text Color */
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+}
+
+.nav-link:hover .nav-indicator,
+.nav-link:focus .nav-indicator {
+  width: 4rem;
+  background-color: #ccd6f6; /* Text Color */
+}
+
+.nav-text {
+  font-size: 0.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-link {
+  color: #ccd6f6;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #64ffda; /* couleur pour LinkedIn */
+}
+
+.social-link:hover .fa-github {
+  color: #ccd6f6; /* couleur pour GitHub */
+}
