@@ -2,6 +2,7 @@ import React from 'react';
 import '../assets/styles/Projects.css';
 import projet1 from "../assets/images/card.png"
 import projet2 from "../assets/images/reactportfolio.jpeg"
+import projet3 from "../assets/images/lorem-ipsum.jpg"
 
 const projects = [
   {
@@ -17,27 +18,20 @@ const projects = [
     title: 'Portfolio',
     description: 'Mon portfolio d\'étudiant developpeur web fullstack codé en react native avec css3.',
     technologies: ['React', 'CSS'],
-    github: 'https://github.com/username/project1',
-    demo: 'https://project1-demo.com',
+    github: 'https://github.com/sophianABN/portfolio',
+    demo: 'https://poetic-peony-792387.netlify.app/',
     image: projet2
   },
   // autres projets 
   {
-    title: 'Portfolio',
-    description: 'Mon portfolio d\'étudiant developpeur web fullstack codé en react native avec css3.',
+    title: 'Projet 3',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
     technologies: ['React', 'CSS'],
     github: 'https://github.com/username/project1',
     demo: 'https://project1-demo.com',
-    image: projet2
-  },
-  {
-    title: 'Portfolio',
-    description: 'Mon portfolio d\'étudiant developpeur web fullstack codé en react native avec css3.',
-    technologies: ['React', 'CSS'],
-    github: 'https://github.com/username/project1',
-    demo: 'https://project1-demo.com',
-    image: projet2
-  },
+    image: projet3
+  }
+
 ];
 
 const Projects = () => (
